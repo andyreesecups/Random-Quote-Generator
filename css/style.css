@@ -1,23 +1,29 @@
 body {
-	background: #A3F53E;
+    background: #3AB37F;
 }
 
-body, h1, h3, p {
-	font-family: Helvetica, Arial, sans-serif;
+h1,
+h3 {
+    font-family: 'Anton', sans-serif;
 }
 
 .container {
-	text-align: center;
-	padding-top: 50px;
+    text-align: center;
+    padding-top: 50px;
 }
 
 hr {
-	width: 600px;
+    width: 1100px;
 }
 
 .quote-box {
-	border: 1px solid black;
-	border-radius: 15px;
-	padding: 10px;
-	margin-bottom: 15px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.4em;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 9px 8px 5px 0px rgba(7, 142, 84, 0.73);
+    -moz-box-shadow: 9px 8px 5px 0px rgba(7, 142, 84, 0.73);
+    box-shadow: 9px 8px 5px 0px rgba(7, 142, 84, 0.73);
 }
